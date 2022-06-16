@@ -1,0 +1,26 @@
+	
+	
+	패키지 생성 ->
+	org.project.commend 부모클래스-> 일하는 매서드
+	org.project.controller  컨트롤러
+	org.project.dao          DB에 엑세스해서 처리
+	org.project.dto           DB객체와 연결객체
+	
+	org.project.commend  패키지 안에
+	ExcuteCommend클래스 생성 -> excuteQuery() 매서드 생성(void)
+	ActionInsert클래스 생성하고  ->ExcuteCommend클래스 excuteQuery() 매서드 오버라이드해서 구현->콘솔에 “회원가입”
+	ActionUpdate클래스 생성하고  ->ExcuteCommend클래스 excuteQuery() 매서드 오버라이드해서 구현->콘솔에 “회원수정”
+	ActionDelete클래스 생성하고  ->ExcuteCommend클래스 excuteQuery() 매서드 오버라이드해서 구현->콘솔에 “회원탈퇴”
+	ActionSelect클래스 생성하고  ->ExcuteCommend클래스 excuteQuery() 매서드 오버라이드해서 구현->콘솔에 “회원조회”
+	
+	org.project.controller   패키지 안에
+	ActionController클래서 생성 -> main 매서드 안에
+	// Scanner이용// 쿼리문 입력 하세요
+	// insert입력 하면ActionInsert   excuteQuery()  실행
+	// select입력 하면 ActionUpdate   excuteQuery()  실행
+	// update입력 하면 ActionDelete   excuteQuery()  실행
+	// delete입력 하면 ActionSelect   excuteQuery()  실행
+	// exit입력하면 종료
+	// 다른 쿼리문 입력하면 다시 입력 하세요 -> 처음부터 다시 시작(while)
+	
+	자바파일을 업로드 해주세요
