@@ -1,5 +1,9 @@
-package org.project.dbconnect;
+package org.project.dbConnect;
 
-public class DbConnect {
+public class DBConnect {
+	
+	public static void getConnection() {
+		System.out.println("DB¿¬°á");
+	}
 
 }
